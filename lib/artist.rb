@@ -1,9 +1,8 @@
 class Artist
   attr_reader :name, :genre
   @@all = []
-  def initialize(name, genre)
+  def initialize(name)
     @name = name
-    @genre = genre
     @@all << self
   end
 
