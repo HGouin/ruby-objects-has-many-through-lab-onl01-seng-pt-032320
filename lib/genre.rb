@@ -3,7 +3,7 @@ class Genre
 
   attr_reader :name, :song, :artist
 
-  def initialize(name, artist, song)
+  def initialize(name)
     @name = name
     @artist = artist
     @song = song
