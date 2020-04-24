@@ -2,7 +2,7 @@ class Doctor
 
   attr_reader :name
 
-  def initialie
+  def initialize(name)
     @name = name
   end
 end
