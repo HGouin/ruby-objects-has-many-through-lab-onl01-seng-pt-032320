@@ -4,4 +4,5 @@ class Doctor
 
   def initialie(name)
     @name = name
+  end
 end
