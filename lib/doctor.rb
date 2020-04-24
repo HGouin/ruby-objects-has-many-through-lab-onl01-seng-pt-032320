@@ -3,9 +3,8 @@ class Doctor
 
   attr_reader :name, :patient
 
-  def initialize(name, patient)
+  def initialize(name)
     @name = name
-    @patient = patient
     @@all << self
   end
 
