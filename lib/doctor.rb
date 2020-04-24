@@ -7,6 +7,7 @@ class Doctor
     @name = name
     @date = date
     @patient = patient
+    @appointment = appointment
     @@all << self
   end
 
