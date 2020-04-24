@@ -12,10 +12,4 @@ class Appointment
   def self.all
     @@all
   end
-
-  def patient
-    Patient.all.select do |patient|
-      patient.appointment == self
-    end
-  end
 end
